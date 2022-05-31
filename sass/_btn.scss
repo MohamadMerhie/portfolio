@@ -1,0 +1,66 @@
+%btn{
+          
+            display: inline-block;
+            padding: .8rem;
+            padding-left:3rem ;
+            margin-top: 2rem;
+            background: $btn-color;
+            border-radius: 5rem;
+            transition: 0.7s ;
+            font-size:2rem;
+            font-weight: 500;
+            color: $white;
+            
+            i{  
+                height: 4rem;
+                width: 4rem;
+                line-height: 4rem;
+                color:$primary-color;
+                background-color: $white;
+                border-radius: 50%;
+                font-size: 2.5rem;
+                text-align: center;
+                margin-left: 2rem;
+                transition: .3s linear;
+            }
+
+            &:hover{
+                i{
+                transform: translateX(1.8rem);
+                margin-right: 1.8rem;
+                }
+                
+            }
+            
+        }
+    
+
+    %btn-secondary{
+
+        
+            display: inline-block;
+            padding: .5rem 1.5rem ;
+            margin-top: 2rem;
+            background: $btn-secondary;
+            border:.2rem solid $primary-color;
+            border-radius: 5rem;
+            transition: 0.7s;
+            font-size:1.5rem;
+            font-weight: 500;
+            color: $white;
+            text-align: center;
+           
+
+            &:hover{
+
+               
+                transform: scale(1.2);
+                background-color: $primary-color;
+               
+               
+                
+            }
+            
+        
+    }
+    

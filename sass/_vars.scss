@@ -1,0 +1,21 @@
+
+$primary-color: #3da29d;
+$secondary-color: #345db6;
+$white: white;
+$black:black;
+$light-bg:#3a3a3afa;
+$navbg: #00000056;
+$btn-color: linear-gradient(90deg, rgba(52,93,182,1) 0%, rgba(61,162,157,1) 100%);
+$btn-secondary:none;
+$box-shadow:1.3rem 1.2rem 2rem rgba(52, 93, 182, 0.7);
+$box-shadow-hover: 1.3rem 1.2rem 2rem rgba(62, 163, 158, 0.7);
+
+
+
+%flex {
+    display: flex;
+    align-items: center;
+    
+}
+
+
